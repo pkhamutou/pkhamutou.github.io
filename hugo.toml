@@ -1,0 +1,19 @@
+baseURL = 'https://www.pkhamutou.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
+params.author = 'pkhamutou'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"
